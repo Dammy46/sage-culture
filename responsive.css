@@ -1,0 +1,287 @@
+@media screen and (max-width: 768px) {
+  #home1-info-line {
+    left: 177px;
+  }
+  .item-title {
+    font-size: 75px;
+  }
+  .slide-number {
+    top: 46%;
+  }
+  .feature-wrapper {
+    bottom: 115px;
+  }
+  .feature-line-wrapper::before {
+    height: 100px;
+  }
+  .menu-button-wrapper {
+    text-align: center;
+  }
+  .menu-info-wrapper {
+    display: none;
+  }
+  .featured-works-header {
+    font-size: 65px;
+  }
+  .card-title {
+    font-size: 30px;
+  }
+  .home3-wrapper {
+    padding: 0px;
+    margin-top: 190px;
+  }
+  .home3-info {
+    text-align: center;
+  }
+  .home3-title {
+    font-size: 120px;
+  }
+  #home3-mobile-button {
+    display: block;
+  }
+  .home3-info .home3-button {
+    display: none;
+  }
+  .home3-button {
+    margin: 30px auto 0;
+    width: 135px;
+    float: none;
+  }
+  .home3-bg-image {
+    position: static;
+    width: auto;
+    height: 700px;
+  }
+  .home3-header {
+    padding-top: 100px;
+  }
+  .home4-image {
+    display: none;
+  }
+  .home2-header,
+  .home5-header {
+    font-size: 60px;
+  }
+  .home4-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  .home4-country {
+    order: 2;
+  }
+  .home4-name {
+    order: 1;
+    font-size: 100px;
+    text-align: center;
+  }
+  .home4-button {
+    justify-content: center;
+  }
+  .home2-wrapper,
+  .home4-wrapper,
+  .home5-wrapper {
+    padding: 0 100px;
+  }
+  .home6-hours {
+    display: none;
+  }
+  .home6-buttons {
+    display: block;
+    margin-top: 50px;
+  }
+  .home6-box {
+    width: 288px;
+    margin-left: -144px;
+  }
+  .home6-address {
+    font-size: 35px;
+  }
+  .home6-address span {
+    display: block;
+  }
+  .home6-address span::after {
+    display: none;
+  }
+  .home6-buttons a .button {
+    padding: 10px;
+  }
+  .desktop-wrapper {
+    display: none;
+  }
+  .mobile-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-footer-link {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer-link {
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo-img,
+  .menu-btn-wrapper {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .slick-prev,
+  .slick-next {
+    top: 95% !important ;
+    transform: none;
+  }
+  .slick-prev {
+    left: 45px;
+  }
+  .feature-wrapper {
+    bottom: 10px;
+    right: 165px;
+  }
+  .feature-caption {
+    writing-mode: inherit;
+  }
+  .feature-line-wrapper::before {
+    display: none;
+  }
+
+  .slide-number {
+    display: none !important;
+  }
+  .item-caption {
+    width: 59%;
+    text-align: center;
+  }
+  .item-title {
+    font-size: 54px;
+  }
+  #home1-info-line {
+    left: 103px;
+    right: 103px;
+  }
+  .menu-button {
+    font-size: 35px;
+    padding: 11px 6px;
+  }
+  .home2-item,
+  .home5-card {
+    width: 100%;
+  }
+  .home2-header,
+  .home5-header {
+    font-size: 39px;
+    padding-bottom: 20px !important;
+  }
+  .home2-wrapper,
+  .home5-wrapper {
+    padding: 0px 50px;
+  }
+  .home3-wrapper {
+    height: 800px;
+  }
+  .home3-title {
+    font-size: 65px;
+    margin-top: 40px;
+  }
+  .home3-bg-image {
+    height: 450px;
+  }
+  .home3-header {
+    padding-top: 50px;
+  }
+  .home3-wrapper {
+    margin-top: 175px;
+  }
+  .home4-wrapper,
+  .home5-header {
+    margin: 102px auto 0;
+    padding: 0 50px;
+  }
+  .home4-name {
+    font-size: 65px;
+  }
+  .home5-card-header,
+  .card-date,
+  .card-caption {
+    text-align: center;
+  }
+  .home5-card-header {
+    margin-bottom: 10px;
+  }
+  .card-date {
+    font-size: 25px;
+  }
+  .card-caption {
+    font-size: 22px;
+    margin: 0px;
+  }
+  .home6-box {
+    width: 200px;
+    margin-left: -100px;
+  }
+  .home6-address {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .feature-wrapper {
+    right: 145px;
+  }
+  .item-caption {
+    width: 53%;
+  }
+  .item-title {
+    font-size: 44px;
+  }
+  .item-subtitle {
+    font-size: 25px;
+  }
+  .home2-header,
+  .home5-header {
+    font-size: 32px;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .home3-title {
+    font-size: 55px;
+    margin-top: 38px;
+  }
+  .home4-name {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .item-caption {
+    width: 45%;
+  }
+  .item-title {
+    font-size: 31px;
+  }
+  .item-subtitle {
+    font-size: 21px;
+  }
+  .feature-wrapper {
+    right: 118px;
+  }
+  .feature-wrapper {
+    right: 118px;
+  }
+  .home2-header,
+  .home5-header {
+    font-size: 26px;
+  }
+  .home4-name {
+    font-size: 45px;
+  }
+}

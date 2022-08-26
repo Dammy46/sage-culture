@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: static;
+  background-color: #eeecea;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+.header-wrapper {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.nav-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-img {
+  position: fixed;
+  top: 48px;
+  width: 56px;
+  height: 58px;
+  left: 30px;
+  z-index: 11;
+}
+#page-logo2 {
+  display: none;
+}
+.block {
+  display: block !important;
+}
+.none {
+  display: none;
+}
+.menu-btn-wrapper {
+  position: fixed;
+  top: 48px;
+  right: 30px;
+  z-index: 11;
+  cursor: pointer;
+}
+.menu-btn {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #fff;
+  writing-mode: vertical-lr;
+  transition: 0.4s;
+}
+.white {
+  color: #fff !important;
+}
+.item {
+  height: 100vh !important;
+  display: table-cell !important;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.item-wrapper {
+  height: 100%;
+  padding: 0px 85px 0px 87px;
+  position: relative;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.item-caption {
+  top: 215px;
+  position: absolute;
+}
+.item-title {
+  font-size: 90px;
+  line-height: 100%;
+  color: #fff;
+}
+.item-subtitle {
+  font-size: 30px;
+  margin-top: 28px;
+  color: #fff;
+}
+#home1-info-line {
+  position: absolute;
+  top: 123px;
+  right: 150px;
+  bottom: 123px;
+  left: 197px;
+}
+.home1-info-line {
+  position: absolute;
+  border-style: solid;
+  border-color: #988f8a;
+  transition: 1s 0.5s;
+  border-width: 0;
+}
+#home1-info-line1 {
+  border-top-width: 1px;
+  top: 0;
+  left: 0;
+  width: 0%;
+}
+#home1-info-line2 {
+  border-right-width: 1px;
+  top: 0;
+  right: 0;
+  height: 0%;
+}
+#home1-info-line3 {
+  border-bottom-width: 1px;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+}
+#home1-info-line4 {
+  border-left-width: 1px;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+}
+.slick-next:before,
+.slick-prev:before {
+  font-size: 25px !important;
+}
+.slick-active {
+  transform: scale(1.04);
+  transition: transform 1.5s;
+}
+.slick-arrow {
+  z-index: 9;
+}
+.slick-prev {
+  left: auto;
+  right: 45px !important;
+  top: 40% !important;
+  transform: rotate(90deg);
+}
+.slick-next {
+  top: auto;
+  right: 45px !important;
+  bottom: 40% !important;
+  transform: rotate(90deg);
+}
+.slide-number {
+  position: absolute;
+  right: 30px;
+  top: 47%;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Catamaran', sans-serif;
+}
+.feature-wrapper {
+  position: absolute;
+  bottom: 140px;
+  right: 45px;
+  color: #fff;
+}
+.feature-caption {
+  writing-mode: vertical-lr;
+}
+.feature-caption h5 {
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 3px;
+  margin: 0px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.feature-line-wrapper {
+  position: absolute;
+  right: 45px;
+}
+.feature-line-wrapper::before {
+  position: absolute;
+  content: '';
+  border: 1px solid #fff;
+  bottom: 0px;
+  height: 130px;
+  right: 12px;
+}
+.menu-wrapper {
+  display: none;
+  position: fixed;
+  background: #1d1d1d;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.menu-container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-line {
+  top: 0;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid #988f8a0d;
+}
+.menu-line1 {
+  right: 150px;
+}
+.menu-line2 {
+  right: 350px;
+}
+.menu-line3 {
+  right: 590px;
+}
+.menu-line4 {
+  right: 790px;
+}
+.menu-line5 {
+  right: 940px;
+}
+.menu-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.menu-button {
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.3;
+  padding: 15px 6px;
+  transition: opacity 0.4s;
+}
+.menu-button:hover {
+  opacity: 1;
+}
+.menu-info-header,
+.menu-info-text {
+  color: #fff;
+  opacity: 0.3;
+  transition: opacity 0.4s;
+}
+.menu-info-text:hover {
+  opacity: 1;
+}
+.menu-info-header {
+  margin-bottom: 14px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.menu-info-text {
+  margin-bottom: 42px;
+  width: 360px;
+  font-size: 35px;
+}
+
+.home2-wrapper {
+  margin-top: 30px;
+  padding: 0px 120px;
+}
+
+.home2-header,
+.home5-header {
+  text-align: center;
+  position: relative;
+  padding-top: 114px;
+  padding-bottom: 40px;
+  padding-left: 0.4em;
+  text-transform: uppercase;
+  font-size: 75px;
+  letter-spacing: 0.4em;
+  line-height: 110%;
+  color: #1a1818;
+}
+.home2-header::after,
+.home5-header::after {
+  width: 72px;
+  margin-left: -36px;
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  margin-left: -50px;
+  width: 100px;
+  border-bottom: 1px solid #202020;
+}
+.home2-container,
+.home5-container {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.home2-item,
+.home5-card {
+  width: 45%;
+}
+.home2-card-header,
+.card-image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.card-img {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 0.8s;
+}
+.card-title {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 32px;
+}
+.card-subtitle {
+  text-align: center;
+  margin-top: 14px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.card-title,
+.card-subtitle,
+.home5-card-header,
+.card-date,
+.card-caption {
+  opacity: 1;
+  transition: transform 0.4s;
+}
+.home2-item:hover .card-img,
+.card-item:hover .card-bg-image {
+  transform: scale(1.05);
+  transition: transform 3.5s;
+}
+.home2-item:hover .card-title,
+.home2-item:hover .card-subtitle,
+.card-item:hover .home5-card-header,
+.card-item:hover .card-date,
+.card-item:hover .card-caption {
+  opacity: 0.3;
+  transition: opacity 0.4s;
+}
+.home3-wrapper {
+  position: relative;
+  margin-top: 250px;
+  padding-left: 150px;
+  height: 810px;
+}
+#home3-mobile-button {
+  display: none;
+}
+.home3-header {
+  padding-top: 120px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.home3-title {
+  margin-top: 45px;
+  margin-bottom: 85px;
+  font-size: 138px;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.button-line {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Catamaran', sans-serif;
+  float: left;
+  transition: opacity 0.3s;
+}
+.button-line::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.button-line:hover {
+  opacity: 0.6;
+}
+.button-line:hover::after {
+  animation: underscored 0.8s linear;
+}
+.home3-bg-image {
+  position: absolute;
+  top: 0;
+  left: 33.5%;
+  width: 66.5%;
+  height: 810px;
+  background-image: url(assets/thumbnail/gallery.jpg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.home4-wrapper,
+.home5-wrapper {
+  margin: 320px auto 0;
+  padding: 0 120px;
+}
+.home4-header {
+  padding-top: 150px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.home4-line {
+  margin: 36px -10px 0;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+}
+.home4-info {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 220px;
+}
+.home4-country,
+.home4-name {
+  transition: opacity 0.3s, color 0.3s;
+  display: table-cell;
+  vertical-align: middle;
+}
+.home4-info .home4-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.home4-country {
+  font-size: 19px;
+  width: 200px;
+  font-weight: 500;
+  font-family: 'Catamaran', sans-serif;
+}
+.home4-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 130px;
+  text-align: right;
+  line-height: 85%;
+}
+.home4-image {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 520px;
+  height: 700px;
+  margin-top: -350px;
+  opacity: 0;
+  background-size: cover;
+  z-index: 1;
+  display: none;
+}
+.home4-image {
+  width: 442px;
+  height: 595px;
+  margin-top: -295px;
+}
+.home4:hover .home4-line {
+  border-color: rgba(190, 190, 190, 0.3);
+}
+.home4-info:hover .home4-country,
+.home4-info:hover .home4-name {
+  opacity: 0.2;
+}
+.home4-info:hover .home4-image {
+  display: block;
+  opacity: 1;
+}
+.home4-button,
+.home5-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.home5-button {
+  justify-content: center !important;
+}
+.home4-button .button-line,
+.home5-button .button-line {
+  margin-top: 2rem;
+}
+.home5-wrapper {
+  margin-top: 55px;
+}
+.card-bg-image {
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home5-card-header {
+  margin-top: 42px;
+  font-size: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+}
+.card-date {
+  margin-top: 36px 20px;
+  font-size: 28px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+}
+.card-caption {
+  margin-top: 10px;
+  font-size: 28px;
+}
+.home6-wrapper {
+  margin: 120px 0px 100px;
+
+  padding: 100px 0px 80px;
+  position: relative;
+}
+.home6-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  margin-left: -244px;
+  width: 488px;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+}
+.home6-address {
+  text-align: center;
+  font-size: 40px;
+  line-height: 135%;
+}
+.home6-address span::after {
+  content: ' — ';
+}
+.home6-hours {
+  display: table;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 170%;
+}
+.home6-buttons {
+  display: none;
+}
+.home6-buttons a .button {
+  padding: 13px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+}
+.footer-wrapper {
+  position: relative;
+}
+.desktop-wrapper {
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+.mobile-wrapper {
+  display: none;
+}
+.footer-link {
+  font-family: 'Catamaran', sans-serif;
+  margin: 35px 17px;
+  padding: 10px;
+}
+.footer-logo-wrapper {
+  position: absolute;
+  bottom: 33px;
+  right: 48px;
+}
+#back-to-top {
+  margin-bottom: 40px;
+}
+@keyframes underscored {
+  0% {
+    transform: scaleX(1);
+    transform-origin: right center;
+  }
+  35% {
+    transform: scaleX(0);
+    transform-origin: right center;
+  }
+  65% {
+    transform: scaleX(0);
+    transform-origin: left center;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left center;
+  }
+}
